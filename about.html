@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__revealsReady){document.documentElement.classList.remove("js");document.querySelectorAll(".ghost-p .r").forEach(function(e){e.style.opacity=""})}},4000)</script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About | Muhammad Taha Zubair</title>
-<meta name="description" content="About Muhammad Taha Zubair, a computer science student with a passion for software development, problem solving, and artificial intelligence.">
+<title>About | Syed Ali Hamza</title>
+<meta name="description" content="About Syed Ali Hamza, a biotechnology graduate with a passion for molecular biology, bioinformatics, and meaningful research.">
 <meta name="theme-color" content="#0b0b0d">
-<meta property="og:title" content="About | Muhammad Taha Zubair">
-<meta property="og:description" content="About Muhammad Taha Zubair, a computer science student with a passion for software development, problem solving, and artificial intelligence.">
+<meta property="og:title" content="About | Syed Ali Hamza">
+<meta property="og:description" content="About Syed Ali Hamza, a biotechnology graduate with a passion for molecular biology, bioinformatics, and meaningful research.">
 <meta property="og:image" content="profile.png">
 <link rel="icon" type="image/png" href="profile.png">
 <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
@@ -179,6 +179,17 @@ section.block{padding-block:clamp(3.5rem,7vw,5.5rem)}
 
 /* hero */
 .hero{padding-top:2.5rem;padding-bottom:clamp(3rem,6vw,4.5rem)}
+.hero-photo{
+  display:block;
+  width:clamp(220px,45vw,400px);
+  height:auto;
+  aspect-ratio:1;
+  border-radius:50%;
+  object-fit:cover;
+  border:3px solid var(--highlight);
+  box-shadow:0 0 0 8px rgba(48,175,91,.12),0 24px 60px rgba(0,0,0,.55);
+  margin-bottom:2rem;
+}
 .hero h1{font-size:3rem;line-height:1;text-wrap:pretty}
 @media (min-width:768px){.hero h1{font-size:3.75rem}}
 @media (min-width:1024px){.hero h1{font-size:4.5rem;width:75%}}
@@ -220,7 +231,6 @@ section.block{padding-block:clamp(3.5rem,7vw,5.5rem)}
   box-shadow:0 1px 2px rgba(0,0,0,.35);
 }
 .chip svg,.chip .chip-ico{width:18px;height:18px;flex-shrink:0}
-.chip img{width:18px;height:18px;flex-shrink:0}
 
 /* small static chips */
 .chips{display:flex;flex-wrap:wrap;gap:.5rem}
@@ -237,29 +247,6 @@ section.block{padding-block:clamp(3.5rem,7vw,5.5rem)}
 .job__meta{margin-top:.75rem}
 .job__desc{margin-top:.75rem;color:var(--text-secondary);max-width:72ch;line-height:1.55}
 
-/* process steps */
-.steps{display:grid;gap:1rem;grid-template-columns:1fr}
-@media (min-width:640px){.steps{grid-template-columns:repeat(2,1fr);gap:1.25rem}}
-@media (min-width:1024px){.steps{grid-template-columns:repeat(5,1fr)}}
-.step{
-  background:var(--bg-800);border:1px solid var(--bg-700);
-  border-radius:1rem;padding:1.5rem;
-}
-.step__num{
-  display:block;
-  font-family:var(--font-clash);font-size:.875rem;font-weight:500;
-  letter-spacing:.05rem;color:var(--highlight);
-}
-.step h3{
-  margin-top:.875rem;
-  font-family:var(--font-satoshi);font-size:1.0625rem;font-weight:500;
-  line-height:1.4;color:var(--text-primary);
-}
-.step p{
-  margin-top:.5rem;
-  font-size:.9375rem;color:var(--text-secondary);line-height:1.55;
-}
-
 /* education */
 .awards{display:grid;gap:0}
 @media (min-width:768px){.awards{grid-template-columns:repeat(2,1fr);column-gap:4rem}}
@@ -274,6 +261,7 @@ section.block{padding-block:clamp(3.5rem,7vw,5.5rem)}
   display:block;margin-top:.25rem;
   font-size:.875rem;color:var(--text-secondary);
 }
+.awards a.award__name:hover{color:var(--highlight)}
 
 /* languages */
 .lang-grid{display:grid;gap:2.5rem}
@@ -318,6 +306,8 @@ footer.site{padding-block:2rem 3rem;z-index:10}
   justify-content:space-between;
   font-size:.8125rem;color:var(--muted);
 }
+.footer__base a{transition:color .3s}
+.footer__base a:hover{color:var(--text-primary)}
 </style>
 <noscript><style>
 [data-aos]{opacity:1!important}
@@ -329,7 +319,7 @@ footer.site{padding-block:2rem 3rem;z-index:10}
 <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="spk" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></symbol></defs></svg>
 <header class="site">
   <nav class="pill" aria-label="Main">
-    <a class="logo" href="index.html">TZ</a>
+    <a class="logo" href="index.html">SH</a>
     <ul class="nav-links">
       <li><a href="index.html"><span class="nav-link"><span class="inner"><span class="l1">Home</span><span class="l2">Home</span></span></span></a></li>
       <li><a class="active-link" href="about.html"><span class="nav-link"><span class="inner"><span class="l1">About</span><span class="l2">About</span></span></span></a></li>
@@ -346,14 +336,15 @@ footer.site{padding-block:2rem 3rem;z-index:10}
   <section class="max-screen hero">
     <div class="revealFx hideRevealFx">
     <div data-aos data-aos-delay="0">
-      <h1>A software developer &amp; computer science student</h1>
+      <img class="hero-photo" src="profile.png" alt="Syed Ali Hamza" width="400" height="400">
+      <h1>A biotechnology graduate with a passion for <span class="hl">scientific research</span></h1>
     </div>
     <div data-aos data-aos-delay="200">
-      <p class="hero-bio">Motivated Computer Science student with knowledge of Python, C++, data structures, algorithms, and digital logic design. Strong problem-solving and analytical skills with a passion for software development and artificial intelligence. Eager to apply technical knowledge through projects, internships, and continuous learning.</p>
+      <p class="hero-bio">Motivated graduate with a strong background in biological sciences and research methods. Good analytical thinking and problem-solving skills, with a strong interest in scientific innovation. Experience working both independently and as part of a team in academic settings. Committed to continuous learning and contributing to meaningful research.</p>
     </div>
     <div data-aos data-aos-delay="400">
       <div class="hero-cta">
-        <a href="Muhammad_Taha_CV.pdf">
+        <a href="Syed_Ali_Hamza_CV.pdf">
           <button class="btn btn__outline" type="button">
             <span class="btn__ripple"></span>
             <span style="display:block;overflow:hidden">
@@ -397,111 +388,88 @@ footer.site{padding-block:2rem 3rem;z-index:10}
     <div class="skills-block" data-aos data-aos-delay="400">
       <div class="skills-row">
         <div class="skills-track" data-marquee>
-          <div class="mq-group">
-            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="" width="18" height="18">C++</span>
-            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" width="18" height="18">Python</span>
-            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="" width="18" height="18">HTML</span>
-            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" width="18" height="18">CSS</span>
-            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" width="18" height="18">JavaScript</span>
-            <span class="chip">Data Structures &amp; Algorithms</span>
-            <span class="chip">Object-Oriented Design</span>
-          </div>
-          <div class="mq-group">
-            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="" width="18" height="18">C++</span>
-            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" alt="" width="18" height="18">Python</span>
-            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="" width="18" height="18">HTML</span>
-            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="" width="18" height="18">CSS</span>
-            <span class="chip"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="" width="18" height="18">JavaScript</span>
-            <span class="chip">Data Structures &amp; Algorithms</span>
-            <span class="chip">Object-Oriented Design</span>
-          </div>
+          <div class="mq-group"><span class="chip">PCR</span><span class="chip">Gel Electrophoresis</span><span class="chip">DNA &amp; RNA Extraction</span><span class="chip">ELISA</span><span class="chip">Spectrophotometry</span><span class="chip">Microscopy</span><span class="chip">Nanoparticle Synthesis</span><span class="chip">Microbial Culture</span><span class="chip">Antimicrobial Susceptibility Testing</span></div>
+          <div class="mq-group"><span class="chip">PCR</span><span class="chip">Gel Electrophoresis</span><span class="chip">DNA &amp; RNA Extraction</span><span class="chip">ELISA</span><span class="chip">Spectrophotometry</span><span class="chip">Microscopy</span><span class="chip">Nanoparticle Synthesis</span><span class="chip">Microbial Culture</span><span class="chip">Antimicrobial Susceptibility Testing</span></div>
         </div>
       </div>
       <div class="skills-row">
         <div class="skills-track rev" data-marquee>
-          <div class="mq-group">
-            <span class="chip">Object-Oriented Programming</span>
-            <span class="chip">Problem Solving</span>
-            <span class="chip">Database Fundamentals</span>
-            <span class="chip">Agile Methodologies</span>
-            <span class="chip">Debugging</span>
-            <span class="chip">Digital Logic Design</span>
-          </div>
-          <div class="mq-group">
-            <span class="chip">Object-Oriented Programming</span>
-            <span class="chip">Problem Solving</span>
-            <span class="chip">Database Fundamentals</span>
-            <span class="chip">Agile Methodologies</span>
-            <span class="chip">Debugging</span>
-            <span class="chip">Digital Logic Design</span>
-          </div>
+          <div class="mq-group"><span class="chip">Python (Basic)</span><span class="chip">NCBI</span><span class="chip">BLAST</span><span class="chip">Swiss Dock</span><span class="chip">Discovery Studio</span><span class="chip">ClustalW</span><span class="chip">AlphaFold</span><span class="chip">PSIPRED</span><span class="chip">SnapGene</span><span class="chip">AddGene</span><span class="chip">SRA Toolkit</span><span class="chip">Protein Characterization</span><span class="chip">Genome Alignment</span></div>
+          <div class="mq-group"><span class="chip">Python (Basic)</span><span class="chip">NCBI</span><span class="chip">BLAST</span><span class="chip">Swiss Dock</span><span class="chip">Discovery Studio</span><span class="chip">ClustalW</span><span class="chip">AlphaFold</span><span class="chip">PSIPRED</span><span class="chip">SnapGene</span><span class="chip">AddGene</span><span class="chip">SRA Toolkit</span><span class="chip">Protein Characterization</span><span class="chip">Genome Alignment</span></div>
+        </div>
+      </div>
+      <div class="skills-row">
+        <div class="skills-track" data-marquee>
+          <div class="mq-group"><span class="chip">Scientific Writing</span><span class="chip">Data Analysis</span><span class="chip">Project Management</span><span class="chip">Time Management</span><span class="chip">Problem-Solving</span><span class="chip">Collaboration</span><span class="chip">Adaptability</span><span class="chip">Research Skills</span><span class="chip">Written and Verbal Communication</span></div>
+          <div class="mq-group"><span class="chip">Scientific Writing</span><span class="chip">Data Analysis</span><span class="chip">Project Management</span><span class="chip">Time Management</span><span class="chip">Problem-Solving</span><span class="chip">Collaboration</span><span class="chip">Adaptability</span><span class="chip">Research Skills</span><span class="chip">Written and Verbal Communication</span></div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ACADEMIC PROJECTS -->
+  <!-- RESEARCH PROJECTS -->
   <section class="max-screen block" aria-labelledby="projects-h">
     <div class="label" data-aos data-aos-delay="0">
       <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><use href="#spk"></use></svg>
       <p class="shimmer">Projects</p>
     </div>
-    <div data-aos data-aos-delay="200"><h2 class="reveal-h2" id="projects-h">Academic Projects</h2></div>
+    <div data-aos data-aos-delay="200"><h2 class="reveal-h2" id="projects-h">Research Projects</h2></div>
 
     <ul class="jobs" style="margin-top:2.5rem">
       <li data-aos data-aos-delay="0">
-        <p class="job__company">Data Structures &amp; Algorithms Implementations</p>
-        <div class="chips job__meta"><span class="chip-static">C++ Development</span></div>
-        <p class="job__desc">Developed fundamental data structures from scratch in C++, including Linked Lists and Graphs. Implemented and optimized various sorting algorithms to enhance application performance and solidify understanding of memory management and time/space complexities.</p>
+        <p class="job__company">Exploring Computational Insights into Microbial Gut Dynamics and Neurodegeneration in Parkinson&#39;s Disease Using RNA-SEQ Analysis</p>
+        <div class="chips job__meta"><span class="chip-static">RNA-SEQ Analysis</span><span class="chip-static">Python</span><span class="chip-static">Oct 2024 - Jul 2025</span></div>
+        <p class="job__desc">Pioneered a custom bioinformatics pipeline for comparative genomic analysis, uncovering transcriptomic differences between healthy and Parkinson&#39;s Disease samples through RNA sequences. Leveraged Python scripting for sequence parsing, high-throughput alignment (BLAST), and differential expression analysis of the gut microbiome (Porphyromonas gingivalis, Collinsella aerofaciens) to discover novel biomarkers linked to neurodegeneration.</p>
       </li>
       <li data-aos data-aos-delay="200">
-        <p class="job__company">Network Topology Design &amp; Simulation</p>
-        <div class="chips job__meta"><span class="chip-static">Cisco Packet Tracer</span></div>
-        <p class="job__desc">Architected and simulated a functional enterprise network topology using Cisco Packet Tracer. Configured switches, routers, and network infrastructure to demonstrate practical understanding of network protocols, subnets, and communication routing.</p>
-      </li>
-      <li data-aos data-aos-delay="400">
-        <p class="job__company">Full-Stack Web Foundations</p>
-        <div class="chips job__meta"><span class="chip-static">HTML / CSS / JavaScript</span></div>
-        <p class="job__desc">Built interactive and responsive web layouts to demonstrate proficiency in front-end development. Utilized HTML for structural semantics, CSS for modern styling, and JavaScript for DOM manipulation and dynamic user interactions.</p>
+        <p class="job__company">Exploring Polyurethanase-Driven Bioremediation: Structural Insights, Enzyme-Substrate Dynamics and Environmental Strategies for Urethane Degradation (In-Silico Research)</p>
+        <div class="chips job__meta"><span class="chip-static">Molecular Dynamics</span><span class="chip-static">In-Silico Research</span><span class="chip-static">Mar 2024 - Oct 2024</span></div>
+        <p class="job__desc">Conducted in-silico molecular modeling and dynamics simulations of polyurethanase from Serratia proteamaculans to evaluate its bioremediation potential for urethane degradation. Demonstrated strong enzyme-substrate interactions and structural stability for sustainable environmental cleanup, then developed and presented a scientific poster that achieved 3rd position for research excellence and presentation quality.</p>
       </li>
     </ul>
   </section>
 
-  <!-- DESIGN PROCESS -->
-  <section class="max-screen block" aria-labelledby="process-h">
+  <!-- EXPERIENCE -->
+  <section class="max-screen block" aria-labelledby="exp-h">
     <div class="label" data-aos data-aos-delay="0">
       <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><use href="#spk"></use></svg>
-      <p class="shimmer">Process</p>
+      <p class="shimmer">Experience</p>
     </div>
-    <div data-aos data-aos-delay="200"><h2 class="reveal-h2" id="process-h">Design Process</h2></div>
+    <div data-aos data-aos-delay="200"><h2 class="reveal-h2" id="exp-h">Work Experience</h2></div>
 
-    <ol class="steps" style="margin-top:2.5rem">
-      <li class="step" data-aos data-aos-delay="0">
-        <span class="step__num">01</span>
-        <h3>Strategize</h3>
-        <p>Define the goal, the audience, and the constraints before opening a design file.</p>
+    <ul class="jobs" style="margin-top:2.5rem">
+      <li data-aos data-aos-delay="0">
+        <p class="job__company">Sundas Foundation</p>
+        <div class="chips job__meta"><span class="chip-static">Internship</span><span class="chip-static">Lahore, Pakistan</span><span class="chip-static">06/09/2024 - 20/09/2024</span></div>
+        <p class="job__desc">Performed hematological testing, infection control, and patient-focused laboratory practices to support safe transfusions. Ensured sample compatibility and collaborated with clinical staff to maintain workflow efficiency and timely reporting. Streamlined laboratory processes, helping to reduce patient waiting times by 10%, and collected, processed, and analyzed blood samples for 60+ patients daily to ensure high diagnostic accuracy.</p>
       </li>
-      <li class="step" data-aos data-aos-delay="200">
-        <span class="step__num">02</span>
-        <h3>Wireframe</h3>
-        <p>Sketch structure and flow in low fidelity until the skeleton holds up.</p>
+    </ul>
+  </section>
+
+  <!-- PUBLICATIONS -->
+  <section class="max-screen block" aria-labelledby="pub-h">
+    <div class="label" data-aos data-aos-delay="0">
+      <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><use href="#spk"></use></svg>
+      <p class="shimmer">Publications</p>
+    </div>
+    <div data-aos data-aos-delay="200"><h2 class="reveal-h2" id="pub-h">Publications</h2></div>
+
+    <ul class="awards" style="margin-top:2.5rem">
+      <li data-aos data-aos-delay="0">
+        <span>
+          <a class="award__name" href="https://doi.org/10.71336/jabs.1499" target="_blank" rel="noopener noreferrer">Molecular cloning and expression of Bacillus cereus xylanase gene in E. coli BL21</a>
+          <span class="award__inst">Journal of Applied Biological Sciences, 20(1), 34-40</span>
+        </span>
+        <span class="award__date">2026</span>
       </li>
-      <li class="step" data-aos data-aos-delay="400">
-        <span class="step__num">03</span>
-        <h3>Design</h3>
-        <p>Set type, spacing, and color into one system, then refine the details.</p>
+      <li data-aos data-aos-delay="200">
+        <span>
+          <a class="award__name" href="https://www.researchsquare.com/article/rs-7768637/v1" target="_blank" rel="noopener noreferrer">Unravelling Gut microbial integrative transcriptomics and host gene expression in Parkinson&#39;s disease through computational RNASeq Analysis</a>
+          <span class="award__inst">Research Square preprint, not peer reviewed</span>
+        </span>
+        <span class="award__date">2025</span>
       </li>
-      <li class="step" data-aos data-aos-delay="600">
-        <span class="step__num">04</span>
-        <h3>Development</h3>
-        <p>Build it in clean, accessible code that behaves the same on every screen.</p>
-      </li>
-      <li class="step" data-aos data-aos-delay="800">
-        <span class="step__num">05</span>
-        <h3>Quality Assurance</h3>
-        <p>Check performance, edge cases, and accessibility before anything ships.</p>
-      </li>
-    </ol>
+    </ul>
   </section>
 
   <!-- EDUCATION -->
@@ -515,17 +483,58 @@ footer.site{padding-block:2rem 3rem;z-index:10}
     <ul class="awards" style="margin-top:2.5rem">
       <li data-aos data-aos-delay="0">
         <span>
-          <span class="award__name">BS in Computer Science</span>
-          <span class="award__inst">International Islamic University, Islamabad</span>
+          <span class="award__name">BS in Biotechnology</span>
+          <span class="award__inst">University of Central Punjab, Lahore</span>
         </span>
-        <span class="award__date">Aug 2024 &#183; Current</span>
+        <span class="award__date">Sep 2021 &#183; Jul 2025</span>
+      </li>
+    </ul>
+    <p class="job__desc" style="margin-top:1.5rem" data-aos data-aos-delay="200">Thesis: Exploring Computational Insights into Microbial Gut Dynamics and Neurodegeneration in Parkinson&#39;s Disease Using RNA-SEQ Analysis. Final grade: 3.71.</p>
+  </section>
+
+  <!-- CERTIFICATIONS -->
+  <section class="max-screen block" aria-labelledby="cert-h">
+    <div class="label" data-aos data-aos-delay="0">
+      <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><use href="#spk"></use></svg>
+      <p class="shimmer">Certifications</p>
+    </div>
+    <div data-aos data-aos-delay="200"><h2 class="reveal-h2" id="cert-h">Certifications &amp; Activities</h2></div>
+
+    <ul class="awards" style="margin-top:2.5rem">
+      <li data-aos data-aos-delay="0">
+        <span>
+          <a class="award__name" href="https://coursera.org/share/dce241fb59fab4feecdeba27689cd015" target="_blank" rel="noopener noreferrer">Researcher&#39;s Guide to DNA Sequencing Data</a>
+          <span class="award__inst">Coursera</span>
+        </span>
+        <span class="award__date">Certificate</span>
       </li>
       <li data-aos data-aos-delay="200">
         <span>
-          <span class="award__name">FSc in Pre Medical</span>
-          <span class="award__inst">Punjab College Bhalwal, Bhalwal</span>
+          <span class="award__name">Global Outreach Student Member</span>
+          <span class="award__inst">American Society for Microbiology</span>
         </span>
-        <span class="award__date">Aug 2021 &#183; Jun 2024</span>
+        <span class="award__date">2025</span>
+      </li>
+      <li data-aos data-aos-delay="0">
+        <span>
+          <span class="award__name">The Blueprint of Life: Where Biology Meets Technology</span>
+          <span class="award__inst">West Visayas State University, Philippines</span>
+        </span>
+        <span class="award__date">Nov 2024</span>
+      </li>
+      <li data-aos data-aos-delay="200">
+        <span>
+          <span class="award__name">Industry Panel: Career Beyond Research</span>
+          <span class="award__inst">Bversity / Tabs Learning, Chennai, India</span>
+        </span>
+        <span class="award__date">Jul 2025</span>
+      </li>
+      <li data-aos data-aos-delay="0">
+        <span>
+          <span class="award__name">Volunteer, Services for Humanity</span>
+          <span class="award__inst">Sundas Foundation, Lahore, Pakistan</span>
+        </span>
+        <span class="award__date">Sep 2024</span>
       </li>
     </ul>
   </section>
@@ -539,11 +548,11 @@ footer.site{padding-block:2rem 3rem;z-index:10}
 
     <div class="lang-grid" style="margin-top:2.5rem">
       <div data-aos data-aos-delay="200">
-        <p class="stat">3</p>
+        <p class="stat">2</p>
         <h2 class="stat__label" id="lang-h">Languages spoken</h2>
       </div>
       <div data-aos data-aos-delay="400">
-        <p class="lang-text">English at a professional level, and native fluency in Urdu and Punjabi.</p>
+        <p class="lang-text">Urdu as my mother tongue, and English at CEFR levels B2 and C1.</p>
       </div>
     </div>
   </section>
@@ -557,33 +566,33 @@ footer.site{padding-block:2rem 3rem;z-index:10}
       <div data-aos data-aos-delay="0" data-aos-once="false">
         <div class="pill-live">
           <span class="dot"><span></span><span class="ping"></span></span>
-          <p>Available for internships</p>
+          <p>Open to research opportunities</p>
         </div>
       </div>
       <div data-aos data-aos-delay="200" data-aos-once="false">
-        <h2 class="reveal-h2">Let's create your next big idea.</h2>
+        <h2 class="reveal-h2">Let&#39;s collaborate on meaningful research.</h2>
       </div>
       <div data-aos data-aos-delay="400" data-aos-once="false">
-        <a href="mailto:muhammadzub318@gmail.com">
+        <a href="mailto:syedalihamza108@gmail.com">
           <button class="btn" type="button">
             <span class="btn__ripple"></span>
             <span style="display:block;overflow:hidden">
-              <span class="btn__text" data-attr="muhammadzub318@gmail.com">Contact Me</span>
+              <span class="btn__text" data-attr="syedalihamza108@gmail.com">Contact Me</span>
             </span>
           </button>
         </a>
       </div>
       <div data-aos data-aos-delay="600" data-aos-once="false">
       <div class="socials-m">
-        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
-        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a>
-        <a href="mailto:muhammadzub318@gmail.com" aria-label="Gmail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a>
-        <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></a>
+        <a href="https://www.linkedin.com/in/syedalihamza124/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+        <a href="https://wa.me/923318829245" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></a>
+        <a href="mailto:syedalihamza108@gmail.com" aria-label="Gmail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a>
       </div>
       </div>
     </div>
     <div class="footer__base">
-      <span>Muhammad Taha Zubair &#183; Islamabad, Pakistan</span>
+      <span>Syed Ali Hamza &#183; Jhelum, Pakistan</span>
+      <span><a href="mailto:syedalihamza108@gmail.com">syedalihamza108@gmail.com</a> &#183; WhatsApp <a href="https://wa.me/923318829245" target="_blank" rel="noopener noreferrer">(+92) 3318829245</a></span>
       <span>&copy; 2026 All rights reserved.</span>
     </div>
   </div>
