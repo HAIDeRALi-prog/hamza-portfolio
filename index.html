@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<script>document.documentElement.classList.add("js");setTimeout(function(){if(!window.__revealsReady){document.documentElement.classList.remove("js");document.querySelectorAll(".ghost-p .r").forEach(function(e){e.style.opacity=""})}},4000)</script>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muhammad Taha Zubair | Software Developer</title>
+<meta name="description" content="Muhammad Taha Zubair, a Computer Science student and software developer from Islamabad, skilled in Python, C++, data structures, algorithms, and web development.">
+<meta name="theme-color" content="#0b0b0d">
+<meta property="og:title" content="Muhammad Taha Zubair | Software Developer">
+<meta property="og:description" content="Computer Science student crafting efficient software solutions with Python, C++, and the web.">
+<meta property="og:image" content="profile.png">
+<link rel="icon" type="image/png" href="profile.png">
+<link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+<link href="https://api.fontshare.com/v2/css?f[]=clash-display@400,500,600&f[]=satoshi@400,500,700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg-900:#0b0b0d;
+  --bg-800:#111116;
+  --bg-700:#191920;
+  --bg-600:#2c2c35;
+  --highlight:#30af5b;
+  --highlight-soft:#B5FF6D;
+  --text-primary:#f4f4f5;
+  --text-secondary:#a1a1aa;
+  --muted:#71717a;
+  --text-inverse:#0b0b0d;
+  --font-clash:'Clash Display',sans-serif;
+  --font-satoshi:'Satoshi',sans-serif;
+  --shimmer-track-height:200px;
+  --shimmer-angle:15deg;
+}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:5.5rem}
+body{
+  background:var(--bg-900);
+  color:var(--text-primary);
+  font-family:var(--font-satoshi);
+  font-weight:400;
+  font-size:16px;
+  line-height:1.5;
+  -webkit-font-smoothing:antialiased;
+  min-height:100vh;
+  scrollbar-gutter:stable;
+}
+h1,h2{font-family:var(--font-clash);font-weight:400;font-size:3rem;line-height:1;text-wrap:pretty}
+h3{font-size:2rem}
+h5{font-family:var(--font-satoshi);font-weight:500;font-size:1.25rem;line-height:1.4;color:var(--text-primary);text-wrap:pretty}
+p{text-wrap:pretty}
+a{color:inherit;text-decoration:none}
+ul{list-style:none}
+button{font-family:inherit;font-size:inherit;color:inherit;background:none;border:0;cursor:pointer}
+img,svg{display:block}
+::selection{background:var(--highlight);color:#04140a}
+
+.skip{
+  position:absolute;left:1rem;top:-100px;z-index:100;
+  background:var(--text-primary);color:var(--text-inverse);
+  padding:.6rem 1rem;font-size:.875rem;font-weight:600;
+  transition:top .2s ease;
+}
+.skip:focus{top:.75rem}
+
+.max-screen{width:100%;max-width:80rem;margin-inline:auto;padding-inline:1rem}
+@media (min-width:640px){.max-screen{padding-inline:1.5rem}}
+
+/* AOS-style reveals (exact AOS semantics) */
+.js [data-aos]{opacity:0;transition:opacity .3s cubic-bezier(.37,0,.63,1)}
+[data-aos].aos-in{opacity:1}
+[data-aos].aos-in[data-aos-delay="200"]{transition-delay:200ms}
+[data-aos].aos-in[data-aos-delay="400"]{transition-delay:400ms}
+[data-aos].aos-in[data-aos-delay="600"]{transition-delay:600ms}
+[data-aos].aos-in[data-aos-delay="800"]{transition-delay:800ms}
+
+/* hero revealFx: left-to-right mask wipe + blur (1.5s ease-in-out) */
+.revealFx{
+  position:relative;width:100%;
+  transition:all 1.5s ease-in-out;
+  -webkit-mask-image:linear-gradient(to right,var(--bg-900) 0%,var(--bg-900) 25%,transparent 50%);
+  mask-image:linear-gradient(to right,var(--bg-900) 0%,var(--bg-900) 25%,transparent 50%);
+  -webkit-mask-size:400% 100%;mask-size:400% 100%;
+  -webkit-mask-position:0 0;mask-position:0 0;
+}
+.js .revealFx.hideRevealFx{
+  filter:blur(12px);
+  -webkit-mask-position:100% 0;mask-position:100% 0;
+}
+.revealFx.revealedFx{filter:blur(0)}
+
+/* letter-by-letter heading reveal (50ms stagger, spring-like overshoot) */
+.js .reveal-h2{opacity:0;transition:opacity .5s cubic-bezier(.37,0,.63,1)}
+.reveal-h2.in{opacity:1}
+.reveal-h2 .w{display:inline-block;overflow:hidden;white-space:nowrap;margin-right:.25em;padding-bottom:.14em;margin-bottom:-.14em}
+.reveal-h2 .ltr{display:inline-block;transition:opacity .5s cubic-bezier(.37,0,.63,1),transform .6s cubic-bezier(.34,1.56,.64,1)}
+.js .reveal-h2 .ltr{opacity:0;transform:translateY(10px)}
+.reveal-h2.in .ltr{opacity:1;transform:translateY(0)}
+
+/* ghost letter paragraph (scroll-scrubbed opacity) */
+.ghost-p{
+  display:flex;flex-wrap:wrap;justify-content:center;
+  font-family:var(--font-satoshi);font-size:1.5rem;font-weight:500;
+  letter-spacing:.025em;color:var(--text-primary);line-height:1.45;
+}
+@media (min-width:640px){.ghost-p{font-size:1.875rem}}
+@media (min-width:768px){.ghost-p{font-size:2rem}}
+.ghost-p .w{position:relative;display:inline-block;margin:.5rem .5rem 0 0}
+.ghost-p .l{position:relative;display:inline-block;line-height:1}
+.ghost-p .g{position:absolute;left:0;top:0;opacity:.2;pointer-events:none;line-height:1}
+.js .ghost-p .r{opacity:0}
+
+/* header */
+header.site{position:sticky;top:0;z-index:50;padding:.5rem 0;pointer-events:none}
+.pill{
+  pointer-events:auto;display:flex;align-items:center;justify-content:space-between;
+  gap:1.5rem;border-radius:999px;padding:.4rem 1rem;
+  max-width:80rem;margin-inline:auto;
+  background-color:transparent;
+  -webkit-backdrop-filter:blur(0);backdrop-filter:blur(0);
+  outline:.5px solid transparent;
+  transition:opacity .5s cubic-bezier(.34,1.3,.5,1),transform .5s cubic-bezier(.34,1.3,.5,1),background-color .4s ease,-webkit-backdrop-filter .4s ease,backdrop-filter .4s ease,outline-color .4s ease;
+}
+.js .pill{opacity:0;transform:translateY(-20px)}
+.pill.in{opacity:1;transform:translateY(0)}
+header.site.scrolled .pill{
+  background-color:rgba(11,11,13,.72);
+  -webkit-backdrop-filter:blur(12px);backdrop-filter:blur(12px);
+  outline-color:rgba(255,255,255,.08);
+}
+.logo{font-family:var(--font-clash);font-weight:500;font-size:1.5rem;line-height:1}
+@media (min-width:640px){.logo{font-size:1.25rem}}
+.nav-links{display:none;gap:1.5rem;font-size:.875rem;color:var(--text-secondary)}
+@media (min-width:640px){.nav-links{display:flex}}
+.nav-link{display:block;overflow:hidden}
+.nav-link .inner{position:relative;display:inline-flex;overflow:hidden;cursor:pointer}
+.nav-link .l1,.nav-link .l2{transition:transform .5s cubic-bezier(.4,0,.2,1)}
+.nav-link .l1{transform:translateY(0) skewY(0)}
+.nav-link .l2{position:absolute;left:0;top:0;transform:translateY(110%) skewY(12deg);color:var(--text-primary)}
+.nav-link:hover .l1{transform:translateY(-110%) skewY(12deg)}
+.nav-link:hover .l2{transform:translateY(0) skewY(0)}
+.active-link{color:var(--text-primary);display:flex;align-items:center;justify-content:center;gap:.5rem;transition:all .3s}
+.active-link::before{content:"";background-color:var(--highlight);border-radius:50%;width:6px;height:6px;flex-shrink:0}
+
+/* buttons */
+.btn{
+  cursor:pointer;border:0;border-radius:24px;width:fit-content;padding:12px 32px;
+  font-size:14px;font-weight:600;line-height:1.25rem;
+  transition:transform .4s linear;position:relative;overflow:hidden;
+  display:inline-block;
+}
+.btn__text{transition:transform .8s cubic-bezier(.16,1,.3,1);display:block;transform:translateY(0%);position:relative}
+.btn__text::after{
+  content:attr(data-attr);width:100%;height:100%;
+  color:var(--text-inverse);text-align:center;
+  position:absolute;top:110%;left:0;right:0;
+}
+.btn__ripple{
+  background:var(--text-primary);border-radius:100% 100% 0 0;
+  width:100%;height:100%;
+  transition:top .5s cubic-bezier(.4,0,0,1),border-radius .5s cubic-bezier(.4,0,0,1);
+  position:absolute;top:101%;left:0;
+}
+.btn:hover{transition:transform .6s cubic-bezier(.34,5.56,.64,1);transform:scaleX(1.02)}
+.btn:hover .btn__ripple{border-radius:0;top:0}
+.btn:hover .btn__text{transform:translateY(-110%)}
+.btn__outline{outline:.5px solid var(--text-primary);color:var(--text-primary);background:transparent}
+.btn__outline .btn__text::after{color:var(--text-inverse)}
+
+/* section label */
+.label{display:flex;align-items:center;gap:.5rem;width:fit-content;margin-bottom:1rem;color:var(--highlight)}
+.label .spark{width:18px;height:18px;flex-shrink:0}
+.label p{
+  font-family:var(--font-clash);font-size:.875rem;line-height:1;font-weight:500;
+  text-transform:uppercase;word-spacing:.125rem;letter-spacing:.05rem;
+  color:var(--highlight);
+}
+.shimmer{--_gradient-width:calc(var(--_spread) + var(--shimmer-track-height) * tan(var(--shimmer-angle)));--_active-distance:calc(var(--shimmer-track-width,200px) + var(--_gradient-width));--_duration:var(--shimmer-duration,calc(var(--_active-distance) / var(--_speed) / 1px * 1000));--_repeat-delay:var(--shimmer-repeat-delay,calc(20000 / var(--_speed)));--_repeat-delay-px:calc(var(--_repeat-delay) * var(--_active-distance) / var(--_duration));--_xy-offset-px:0px;--_bg-width:calc(100% + var(--shimmer-track-width,100%) + var(--_gradient-width) + var(--_repeat-delay-px));--_position:calc(var(--shimmer-track-width,(100% - var(--_gradient-width) - var(--_repeat-delay-px)) / 2) + var(--_gradient-width) / 2 + var(--_repeat-delay-px) - var(--_xy-offset-px))}
+.shimmer:not(.shimmer-bg){--_speed:var(--shimmer-speed,200);--_spread:var(--shimmer-spread,calc(4ch + 80px));--_bg:currentColor;--_fg:var(--shimmer-color,#fff);-webkit-text-fill-color:transparent;-webkit-background-clip:text;background-clip:text}
+.shimmer{--_mix-96:var(--_fg);--_mix-83:var(--_fg);--_mix-67:var(--_fg);--_mix-50:var(--_fg);--_mix-33:var(--_fg);--_mix-17:var(--_fg);--_mix-4:var(--_fg)}
+@supports (color:color-mix(in lab, red, red)){
+.shimmer{--_mix-96:color-mix(in oklch, var(--_fg), var(--_bg) 96%);--_mix-83:color-mix(in oklch, var(--_fg), var(--_bg) 83%);--_mix-67:color-mix(in oklch, var(--_fg), var(--_bg) 67%);--_mix-50:color-mix(in oklch, var(--_fg), var(--_bg) 50%);--_mix-33:color-mix(in oklch, var(--_fg), var(--_bg) 33%);--_mix-17:color-mix(in oklch, var(--_fg), var(--_bg) 17%);--_mix-4:color-mix(in oklch, var(--_fg), var(--_bg) 4%)}
+}
+.shimmer{background:linear-gradient(calc(90deg + var(--shimmer-angle)), var(--_bg) calc(var(--_position) - var(--_spread) * .5), var(--_mix-96) calc(var(--_position) - var(--_spread) * .44), var(--_mix-83) calc(var(--_position) - var(--_spread) * .37), var(--_mix-67) calc(var(--_position) - var(--_spread) * .31), var(--_mix-50) calc(var(--_position) - var(--_spread) * .25), var(--_mix-33) calc(var(--_position) - var(--_spread) * .19), var(--_mix-17) calc(var(--_position) - var(--_spread) * .12), var(--_mix-4) calc(var(--_position) - var(--_spread) * .06), var(--_fg) var(--_position), var(--_mix-4) calc(var(--_position) + var(--_spread) * .06), var(--_mix-17) calc(var(--_position) + var(--_spread) * .12), var(--_mix-33) calc(var(--_position) + var(--_spread) * .19), var(--_mix-50) calc(var(--_position) + var(--_spread) * .25), var(--_mix-67) calc(var(--_position) + var(--_spread) * .31), var(--_mix-83) calc(var(--_position) + var(--_spread) * .37), var(--_mix-96) calc(var(--_position) + var(--_spread) * .44), var(--_bg) calc(var(--_position) + var(--_spread) * .5)) 0 0 / var(--_bg-width) 100% no-repeat;animation:1s linear infinite backwards tw-shimmer;animation-duration:calc((var(--_duration) + var(--_repeat-delay)) * 1ms)}
+@keyframes tw-shimmer{0%{background-position:100% 0}}
+
+section.block{padding-block:clamp(3.5rem,7vw,5.5rem)}
+.center-col{display:flex;flex-direction:column;align-items:center}
+
+/* hero */
+.hero{padding-top:2.5rem;padding-bottom:clamp(3rem,6vw,4.5rem)}
+.greet{display:flex;align-items:center;gap:.5rem;margin-bottom:2rem;color:var(--text-primary);font-size:1rem}
+.greet .avatar{
+  width:40px;height:40px;border-radius:50%;object-fit:cover;
+  border:2px solid var(--highlight);flex-shrink:0;
+}
+.wave{display:inline-block;transform-origin:70% 70%;animation:wave-animation 2.5s infinite}
+.wave svg{color:var(--highlight);transform:rotate(-12deg);width:24px;height:24px}
+@keyframes wave-animation{0%{transform:rotate(0)}10%{transform:rotate(14deg)}20%{transform:rotate(-8deg)}30%{transform:rotate(14deg)}40%{transform:rotate(-4deg)}50%{transform:rotate(10deg)}60%{transform:rotate(0)}100%{transform:rotate(0)}}
+.hero h1{font-size:3rem;line-height:1;text-wrap:pretty}
+@media (min-width:768px){.hero h1{font-size:3.75rem}}
+@media (min-width:1024px){.hero h1{font-size:4.5rem;width:75%}}
+.hl{color:var(--highlight)}
+.hero-row2{display:flex;flex-direction:column;gap:1rem;margin-top:2rem}
+@media (min-width:768px){.hero-row2{flex-direction:row;align-items:center}}
+.hero-line{background:var(--bg-700);height:1px;width:100%;flex-shrink:0}
+.hero-row2 p{width:100%;color:var(--text-primary)}
+@media (min-width:768px){
+  .hero-line{flex:1 1 auto;width:auto;min-width:2rem}
+  .hero-row2 p{width:55%;flex:0 0 auto}
+}
+.hero-row3{margin-top:2rem;display:flex;flex-direction:column;justify-content:space-between;gap:1rem}
+@media (min-width:768px){.hero-row3{flex-direction:row;align-items:center}}
+.socials{display:none;gap:1rem;align-items:center;height:fit-content}
+@media (min-width:768px){.socials{display:flex}}
+.socials a{display:flex;align-items:center;gap:.5rem;font-size:.875rem;text-transform:uppercase;color:var(--text-secondary);transition:color .3s,opacity .3s}
+.socials a:hover{color:var(--text-primary)}
+.socials svg{width:16px;height:16px}
+@media (min-width:40rem){
+  .socials:has(a:hover) a:not(:hover){opacity:.5}
+}
+
+/* word marquee band */
+.band{
+  border-top:1px solid var(--bg-700);
+  border-bottom:1px solid var(--bg-700);
+  padding-block:2rem;overflow:hidden;position:relative;
+}
+.band::before,.band::after,.skills-row::before,.skills-row::after{
+  content:"";position:absolute;top:0;bottom:0;width:25%;
+  pointer-events:none;z-index:2;
+}
+.band::before,.skills-row::before{left:0;background:linear-gradient(to right,var(--bg-900),transparent)}
+.band::after,.skills-row::after{right:0;background:linear-gradient(to left,var(--bg-900),transparent)}
+.mq-track{display:flex;width:max-content;will-change:transform}
+.mq-group{display:flex;flex-shrink:0}
+.band-item{display:flex;align-items:center;gap:1rem;margin-right:16px}
+.band-item h2{
+  color:var(--bg-600);white-space:nowrap;
+  font-size:clamp(1.75rem,5vw,3rem);
+}
+.band-item svg{width:42px;height:24px;color:var(--bg-600);flex-shrink:0}
+
+/* projects */
+.proj-grid{
+  display:grid;grid-template-columns:1fr;gap:2.5rem;
+  padding-block:3rem;
+}
+@media (min-width:640px){
+  .proj-grid{grid-template-columns:1fr 1fr;column-gap:4rem;row-gap:0}
+  .proj-card:nth-child(even){margin-top:3.5rem}
+}
+.proj-card{transition:opacity .3s;cursor:pointer}
+.proj-grid:has(.proj-card:hover) .proj-card:not(:hover){opacity:.5}
+.proj-card a{display:block;height:fit-content}
+.proj-visual{
+  aspect-ratio:3/2;width:100%;overflow:hidden;border-radius:1.5rem;
+}
+.proj-art{width:100%;height:100%;transition:transform .3s ease;transform-origin:center}
+.proj-card:hover .proj-art{transform:scale(1.015)}
+.proj-info{margin-top:1rem}
+.proj-meta{margin-top:.75rem;display:flex;align-items:center;justify-content:space-between;gap:.5rem}
+.chips{display:flex;flex-wrap:wrap;gap:.5rem}
+.chip-static{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:var(--bg-700);border:1px solid transparent;
+  border-radius:999px;padding:.25rem .75rem;
+  font-size:.875rem;color:var(--text-primary);white-space:nowrap;
+}
+.year{color:var(--text-secondary);font-size:.875rem;white-space:nowrap}
+.proj-head-p{margin-top:0;color:var(--text-secondary);max-width:38rem}
+
+/* expertise */
+.exp-wrap{display:block;justify-content:center;gap:1.5rem}
+@media (min-width:640px){.exp-wrap{display:flex}}
+.exp-acc{width:100%}
+.acc-item{
+  background:var(--bg-800);border:1px solid var(--bg-700);
+  border-radius:1rem;margin-bottom:1rem;
+}
+.acc-btn{
+  width:100%;display:flex;align-items:center;gap:.5rem;
+  padding:1rem;text-align:left;
+  font-family:var(--font-satoshi);font-size:1rem;font-weight:500;
+  color:var(--text-primary);line-height:1.4;
+}
+.acc-btn .ico{width:18px;height:18px;flex-shrink:0}
+.acc-btn .chev{width:16px;height:16px;margin-left:auto;flex-shrink:0;transition:transform .15s}
+.acc-item.open .chev{transform:rotate(180deg)}
+.acc-content{display:grid;grid-template-rows:0fr;transition:grid-template-rows .25s ease-out}
+.acc-item.open .acc-content{grid-template-rows:1fr}
+.acc-content>div{overflow:hidden}
+.acc-content p{color:var(--text-secondary);font-size:1rem;padding:0 1rem 1.1rem;line-height:1.55}
+.exp-panel{
+  position:relative;width:100%;aspect-ratio:16/9;
+  border-radius:1.5rem;overflow:hidden;background:var(--bg-800);
+  margin-top:1.5rem;
+}
+@media (min-width:640px){.exp-panel{margin-top:0}}
+.exp-shot{
+  position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+  opacity:0;transition:opacity .5s ease,transform .5s ease;
+}
+.exp-shot.active{opacity:1}
+.exp-panel:hover .exp-shot.active{transform:scale(1.015)}
+.exp-shot .wm{width:88px;height:88px;stroke:rgba(255,255,255,.13);fill:none;stroke-width:1.5}
+.skills-block{margin-top:3.5rem;overflow:hidden}
+.skills-row{overflow:hidden;padding-block:.5rem;position:relative}
+.skills-track{display:flex;width:max-content;will-change:transform}
+.chip{
+  display:inline-flex;align-items:center;gap:.5rem;
+  background:var(--bg-700);border:1px solid transparent;
+  border-radius:999px;padding:.5rem 1rem;
+  font-size:.875rem;color:var(--text-primary);
+  margin-right:16px;white-space:nowrap;flex-shrink:0;
+  box-shadow:0 1px 2px rgba(0,0,0,.35);
+}
+.chip svg,.chip .chip-ico{width:18px;height:18px;flex-shrink:0}
+
+/* testimonials */
+.testi-wrap{display:flex;flex-direction:column;gap:3rem}
+@media (min-width:768px){.testi-wrap{flex-direction:row;gap:1.5rem}}
+.testi-left{width:100%}
+.testi-left h2{margin-bottom:1rem}
+.testi-left p{color:var(--text-secondary);max-width:34rem}
+.testi-right{width:100%}
+@media (min-width:768px){.testi-right{width:66.666%}}
+.carousel{position:relative;overflow:hidden;width:100%}
+.car-track{display:flex;touch-action:pan-y;cursor:grab;transition:transform .5s cubic-bezier(.4,0,.2,1)}
+.car-track.dragging{transition:none;cursor:grabbing}
+.slide{flex:0 0 100%;padding-left:1rem;min-width:0}
+.testi-card{
+  border:1px solid var(--bg-700);background:transparent;
+  border-radius:1.5rem;padding:1.5rem;
+  display:flex;flex-direction:column;gap:1rem;height:100%;
+}
+.slide.active .testi-card{background:var(--bg-800);transition:background-color .6s}
+@media (min-width:640px){.testi-card{padding:2rem}}
+@media (min-width:768px){.testi-card{padding:2.5rem}}
+.testi-head{display:flex;align-items:center;gap:1rem}
+.avatar-wrap{position:relative;width:64px;height:64px;flex-shrink:0}
+.ring{position:absolute;left:-6px;top:-6px;width:76px;height:76px;pointer-events:none;display:none}
+.slide.active .ring{display:block}
+.ring-track{fill:none;stroke:var(--bg-600);stroke-width:4}
+.ring-arc{fill:none;stroke:var(--text-primary);stroke-width:4;stroke-linecap:round;
+  stroke-dasharray:440;stroke-dashoffset:440}
+.slide.active .ring-arc{animation:ringSweep 12s linear infinite}
+@keyframes ringSweep{from{stroke-dashoffset:440}to{stroke-dashoffset:0}}
+.avatar-i{
+  width:64px;height:64px;border-radius:50%;background:var(--bg-800);
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--font-clash);font-size:1.5rem;color:var(--text-secondary);
+  border:1px solid var(--bg-700);
+}
+.testi-id{display:flex;flex-direction:column;gap:.25rem;min-width:0}
+.testi-id p{color:var(--text-secondary);font-size:.875rem}
+.testi-body{line-height:1.55;color:var(--text-primary);font-size:1rem}
+.controls{margin-top:1.25rem;display:flex;align-items:center;gap:.5rem;width:100%}
+.li-link{
+  margin-right:auto;display:flex;align-items:center;gap:.5rem;
+  font-size:.875rem;font-weight:600;color:var(--text-primary);
+  padding:6px;position:relative;
+}
+.li-link::after{
+  content:"";position:absolute;left:6px;right:6px;bottom:2px;height:.5px;
+  background:var(--highlight);transform:scaleX(0);transform-origin:0 100%;
+  transition:transform .35s ease;
+}
+.li-link:hover::after{transform:scaleX(1)}
+.li-link svg{width:18px;height:18px}
+.car-btn{
+  width:48px;height:48px;border-radius:999px;
+  background:var(--bg-800);border:1px solid rgba(255,255,255,.14);
+  display:flex;align-items:center;justify-content:center;
+  color:var(--text-primary);transition:opacity .2s,background .2s,border-color .2s;
+}
+.car-btn:hover:not(:disabled){background:var(--bg-700);border-color:rgba(255,255,255,.25)}
+.car-btn:disabled{opacity:.4;cursor:default}
+.car-btn svg{width:18px;height:18px}
+.car-count{min-width:3rem;text-align:center;font-size:.875rem;font-weight:500;color:var(--muted);line-height:1}
+
+/* footer CTA */
+footer.site{padding-block:2rem 3rem;z-index:10}
+.cta{
+  background:var(--bg-800);border-radius:1.5rem;
+  padding:3.5rem 1rem;display:flex;flex-direction:column;align-items:center;
+  box-shadow:0 1px 3px rgba(0,0,0,.4);
+}
+.pill-live{
+  display:flex;align-items:center;gap:.5rem;
+  background:rgba(181,255,109,.1);border-radius:999px;
+  padding:.5rem 1rem;margin-bottom:1rem;
+}
+.dot{position:relative;width:6px;height:6px;flex-shrink:0}
+.dot span{position:absolute;inset:0;border-radius:50%;background:var(--highlight)}
+.dot .ping{opacity:.75;animation:ping 1s cubic-bezier(0,0,.2,1) infinite}
+@keyframes ping{75%,100%{transform:scale(2);opacity:0}}
+.pill-live p{font-size:.75rem;color:var(--text-primary)}
+.cta h2{margin:0 auto 1.5rem;max-width:36rem;text-align:center;text-wrap:balance}
+.cta .btn{margin:auto}
+.socials-m{display:flex;gap:1.5rem;margin-top:2rem;color:var(--text-secondary);align-items:center}
+.socials-m a{display:flex;transition:color .3s,opacity .3s;color:var(--text-secondary)}
+.socials-m a:hover{color:var(--text-primary)}
+.socials-m svg{width:20px;height:20px}
+@media (min-width:640px){.socials-m{display:none}}
+.footer__base{
+  margin-top:3rem;
+  padding-top:1.5rem;
+  border-top:1px solid var(--bg-700);
+  display:flex;flex-wrap:wrap;gap:.75rem;
+  justify-content:space-between;
+  font-size:.8125rem;color:var(--muted);
+}
+
+/* misc */
+.text-secondary{color:var(--text-secondary)}
+</style>
+<noscript><style>
+[data-aos]{opacity:1!important}
+.pill{opacity:1;transform:none}
+</style></noscript>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><symbol id="spk" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/></symbol></defs></svg>
+
+<header class="site">
+  <nav class="pill" aria-label="Main">
+    <a class="logo" href="index.html">TZ</a>
+    <ul class="nav-links">
+      <li><a class="active-link" href="index.html"><span class="nav-link"><span class="inner"><span class="l1">Home</span><span class="l2">Home</span></span></span></a></li>
+      <li><a href="about.html"><span class="nav-link"><span class="inner"><span class="l1">About</span><span class="l2">About</span></span></span></a></li>
+      <li><a href="about.html#projects-h"><span class="nav-link"><span class="inner"><span class="l1">Projects</span><span class="l2">Projects</span></span></span></a></li>
+      <li><a href="#contact"><span class="nav-link"><span class="inner"><span class="l1">Contact</span><span class="l2">Contact</span></span></span></a></li>
+    </ul>
+    <div></div>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="max-screen hero">
+    <div class="revealFx hideRevealFx">
+    <div data-aos data-aos-delay="0">
+      <p class="greet">
+        <img class="avatar" src="profile.png" alt="Muhammad Taha Zubair" width="40" height="40">
+        <span class="wave" aria-hidden="true"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 11V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2"></path><path d="M14 10V4a2 2 0 0 0-2-2a2 2 0 0 0-2 2v2"></path><path d="M10 10.5V6a2 2 0 0 0-2-2a2 2 0 0 0-2 2v8"></path><path d="M18 8a2 2 0 1 1 4 0v6a8 8 0 0 1-8 8h-2c-2.8 0-4.5-.86-5.99-2.34l-3.6-3.6a2 2 0 0 1 2.83-2.82L7 15"></path></svg></span>
+        Hey! It's me Taha,
+      </p>
+    </div>
+    <div data-aos data-aos-delay="200">
+      <h1>Crafting <span class="hl">efficient software solutions</span> that solve real problems.</h1>
+    </div>
+    <div data-aos data-aos-delay="400">
+      <div class="hero-row2">
+        <div class="hero-line"></div>
+        <p>Motivated Computer Science student with knowledge of Python, C++, Data Structures, Algorithms, and Digital Logic Design. Strong problem-solving and analytical skills with a passion for software development and artificial intelligence.</p>
+      </div>
+    </div>
+    <div data-aos data-aos-delay="600">
+      <div class="hero-row3">
+        <ul class="socials">
+          <li><a target="_blank" rel="noopener noreferrer" href="#">LinkedIn<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></span></a></li>
+          <li><a target="_blank" rel="noopener noreferrer" href="#">GitHub<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></span></a></li>
+          <li><a href="mailto:muhammadzub318@gmail.com">Gmail<span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg></span></a></li>
+        </ul>
+        <a href="about.html">
+          <button class="btn btn__outline" type="button">
+            <span class="btn__ripple"></span>
+            <span style="display:block;overflow:hidden">
+              <span class="btn__text" data-attr="About me">Know me better</span>
+            </span>
+          </button>
+        </a>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <!-- WORD MARQUEE BAND -->
+  <div class="band" aria-hidden="true">
+    <div class="mq-track" data-marquee>
+      <div class="mq-group">
+        <div class="band-item"><h2>Software Development</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>C++</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>Python</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>Web Development</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>Data Structures</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>Networking</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>Problem Solving</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+      </div>
+      <div class="mq-group">
+        <div class="band-item"><h2>Software Development</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>C++</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>Python</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>Web Development</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>Data Structures</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>Networking</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+        <div class="band-item"><h2>Problem Solving</h2><svg viewBox="0 0 24 24"><use href="#spk"></use></svg></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT ME -->
+  <section class="max-screen block center-col">
+    <div class="label" data-aos data-aos-delay="0">
+      <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><use href="#spk"></use></svg>
+      <p class="shimmer">About Me</p>
+    </div>
+    <p class="ghost-p" id="ghostAbout">I'm Muhammad Taha Zubair, a Computer Science student with knowledge of Python, C++, Data Structures, Algorithms, and Digital Logic Design. I love solving problems and building projects that turn ideas into working software.</p>
+  </section>
+
+  <!-- SELECTED PROJECTS -->
+  <section class="max-screen block">
+    <div class="label" data-aos data-aos-delay="0">
+      <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><use href="#spk"></use></svg>
+      <p class="shimmer">My Work</p>
+    </div>
+    <div data-aos data-aos-delay="200"><h2 class="reveal-h2" style="margin-bottom:1rem">Selected Projects</h2></div>
+    <div data-aos data-aos-delay="400">
+      <p class="proj-head-p">A curated selection of projects built during my Computer Science studies.</p>
+    </div>
+
+    <div class="proj-grid">
+      <div class="proj-card">
+        <a href="about.html#projects-h">
+          <div class="proj-visual" style="background-color:rgba(251,207,232)">
+            <svg class="proj-art" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="rgba(17,17,22,.6)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <circle cx="150" cy="200" r="55"></circle>
+              <circle cx="300" cy="200" r="55"></circle>
+              <circle cx="450" cy="200" r="55"></circle>
+              <path d="M205 200h40"></path>
+              <path d="M340 185l25 15-25 15"></path>
+              <path d="M495 200h30"></path>
+              <rect x="512" y="182" width="36" height="36" rx="6"></rect>
+              <path d="M130 130l-18-30"></path>
+              <path d="M280 130l-18-30"></path>
+              <path d="M430 130l-18-30"></path>
+            </svg>
+          </div>
+          <div class="proj-info">
+            <h5>Data Structures &amp; Algorithms Implementations</h5>
+            <div class="proj-meta">
+              <div class="chips">
+                <span class="chip-static">C++</span>
+                <span class="chip-static">Data Structures</span>
+              </div>
+              <p class="year">Academic</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="proj-card">
+        <a href="about.html#projects-h">
+          <div class="proj-visual" style="background-color:rgba(199,210,254)">
+            <svg class="proj-art" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="rgba(17,17,22,.6)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="255" y="165" width="90" height="70" rx="12"></rect>
+              <path d="M275 200h50"></path>
+              <path d="M300 165v-45"></path>
+              <path d="M300 235v45"></path>
+              <path d="M255 200H150"></path>
+              <path d="M345 200h105"></path>
+              <path d="M300 120H190"></path>
+              <path d="M300 280h110"></path>
+              <rect x="120" y="178" width="30" height="44" rx="6"></rect>
+              <rect x="450" y="178" width="30" height="44" rx="6"></rect>
+              <rect x="160" y="98" width="30" height="44" rx="6"></rect>
+              <rect x="410" y="258" width="30" height="44" rx="6"></rect>
+            </svg>
+          </div>
+          <div class="proj-info">
+            <h5>Network Topology Design &amp; Simulation</h5>
+            <div class="proj-meta">
+              <div class="chips">
+                <span class="chip-static">Cisco Packet Tracer</span>
+                <span class="chip-static">Networking</span>
+              </div>
+              <p class="year">Academic</p>
+            </div>
+          </div>
+        </a>
+      </div>
+
+      <div class="proj-card">
+        <a href="about.html#projects-h">
+          <div class="proj-visual" style="background-color:rgba(254,249,195)">
+            <svg class="proj-art" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg" fill="none" stroke="rgba(17,17,22,.6)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="110" y="80" width="380" height="240" rx="18"></rect>
+              <path d="M110 132h380"></path>
+              <circle cx="145" cy="106" r="7"></circle>
+              <circle cx="172" cy="106" r="7"></circle>
+              <circle cx="199" cy="106" r="7"></circle>
+              <path d="M255 185l-32 35 32 35"></path>
+              <path d="M345 185l32 35-32 35"></path>
+              <path d="M325 175l-50 90"></path>
+            </svg>
+          </div>
+          <div class="proj-info">
+            <h5>Full-Stack Web Foundations</h5>
+            <div class="proj-meta">
+              <div class="chips">
+                <span class="chip-static">HTML</span>
+                <span class="chip-static">CSS</span>
+                <span class="chip-static">JavaScript</span>
+              </div>
+              <p class="year">Academic</p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALITY / EXPERTISE -->
+  <section class="max-screen block">
+    <div class="label" data-aos data-aos-delay="0">
+      <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><use href="#spk"></use></svg>
+      <p class="shimmer">Speciality</p>
+    </div>
+    <div data-aos data-aos-delay="200"><h2 class="reveal-h2" style="margin-bottom:2rem">Areas of Expertise</h2></div>
+
+    <div class="exp-wrap">
+      <div class="exp-acc">
+        <div class="acc-item" data-aos data-aos-delay="0">
+          <h3>
+            <button class="acc-btn" type="button" aria-expanded="false">
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path><path d="m14.5 4-5 16"></path></svg>
+              Software Development
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+            </button>
+          </h3>
+          <div class="acc-content"><div><p>Writing efficient, well structured programs in C++ and Python with a strong foundation in object oriented design, algorithms, and debugging.</p></div></div>
+        </div>
+
+        <div class="acc-item" data-aos data-aos-delay="200">
+          <h3>
+            <button class="acc-btn" type="button" aria-expanded="false">
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 17l6-6-6-6"></path><path d="M12 19h8"></path></svg>
+              Web Development
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+            </button>
+          </h3>
+          <div class="acc-content"><div><p>Building responsive, accessible web layouts with HTML, CSS, and JavaScript, from structural markup through styling and dynamic interactions.</p></div></div>
+        </div>
+
+        <div class="acc-item" data-aos data-aos-delay="400">
+          <h3>
+            <button class="acc-btn" type="button" aria-expanded="false">
+              <svg class="ico" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h.01"></path><path d="M2 8.82a15 15 0 0 1 20 0"></path><path d="M5 12.859a10 10 0 0 1 14 0"></path><path d="M8.5 16.429a5 5 0 0 1 7 0"></path></svg>
+              Networking
+              <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 9 6 6 6-6"></path></svg>
+            </button>
+          </h3>
+          <div class="acc-content"><div><p>Designing and simulating enterprise network topologies in Cisco Packet Tracer, covering switches, routers, subnets, and communication routing.</p></div></div>
+        </div>
+      </div>
+
+      <div class="exp-panel" data-aos data-aos-delay="600" aria-hidden="true">
+        <div class="exp-shot active" data-shot="0" style="background-image:radial-gradient(120% 90% at 20% 10%,rgba(48,175,91,.22),transparent 55%),linear-gradient(135deg,#131f18,#0d0d11 70%)">
+          <svg class="wm" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path><path d="m14.5 4-5 16"></path></svg>
+        </div>
+        <div class="exp-shot" data-shot="1" style="background-image:radial-gradient(120% 90% at 80% 15%,rgba(41,101,241,.28),transparent 55%),linear-gradient(135deg,#111a29,#0d0d11 70%)">
+          <svg class="wm" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M4 17l6-6-6-6"></path><path d="M12 19h8"></path></svg>
+        </div>
+        <div class="exp-shot" data-shot="2" style="background-image:radial-gradient(120% 90% at 70% 80%,rgba(48,175,91,.2),transparent 55%),linear-gradient(135deg,#0f1f24,#0d0d11 70%)">
+          <svg class="wm" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h.01"></path><path d="M2 8.82a15 15 0 0 1 20 0"></path><path d="M5 12.859a10 10 0 0 1 14 0"></path><path d="M8.5 16.429a5 5 0 0 1 7 0"></path></svg>
+        </div>
+      </div>
+    </div>
+
+    <!-- skills marquee -->
+    <div class="skills-block" data-aos data-aos-delay="600">
+      <div class="skills-row">
+        <div class="skills-track" data-marquee><div class="mq-group"><span class="chip"><svg aria-hidden="true" fill="#E34F26" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg> HTML5</span><span class="chip"><svg aria-hidden="true" fill="#2965F1" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v20.16A3.84 3.84 0 0 0 3.84 24h16.32A3.84 3.84 0 0 0 24 20.16V3.84A3.84 3.84 0 0 0 20.16 0Zm14.256 13.08c1.56 0 2.28 1.08 2.304 2.64h-1.608c.024-.288-.048-.6-.144-.84-.096-.192-.288-.264-.552-.264-.456 0-.696.264-.696.84-.024.576.288.888.768 1.08.72.288 1.608.744 1.92 1.296q.432.648.432 1.656c0 1.608-.912 2.592-2.496 2.592-1.656 0-2.4-1.032-2.424-2.688h1.68c0 .792.264 1.176.792 1.176.264 0 .456-.072.552-.24.192-.312.24-1.176-.048-1.512-.312-.408-.912-.6-1.32-.816q-.828-.396-1.224-.936c-.24-.36-.36-.888-.36-1.536 0-1.44.936-2.472 2.424-2.448m5.4 0c1.584 0 2.304 1.08 2.328 2.64h-1.608c0-.288-.048-.6-.168-.84-.096-.192-.264-.264-.528-.264-.48 0-.72.264-.72.84s.288.888.792 1.08c.696.288 1.608.744 1.92 1.296.264.432.408.984.408 1.656.024 1.608-.888 2.592-2.472 2.592-1.68 0-2.424-1.056-2.448-2.688h1.68c0 .744.264 1.176.792 1.176.264 0 .456-.072.552-.24.216-.312.264-1.176-.048-1.512-.288-.408-.888-.6-1.32-.816-.552-.264-.96-.576-1.2-.936s-.36-.888-.36-1.536c-.024-1.44.912-2.472 2.4-2.448m-11.031.018c.711-.006 1.419.198 1.839.63.432.432.672 1.128.648 1.992H9.336c.024-.456-.096-.792-.432-.96-.312-.144-.768-.048-.888.24-.12.264-.192.576-.168.864v3.504c0 .744.264 1.128.768 1.128a.65.65 0 0 0 .552-.264c.168-.24.192-.552.168-.84h1.776c.096 1.632-.984 2.712-2.568 2.688-1.536 0-2.496-.864-2.472-2.472v-4.032c0-.816.24-1.44.696-1.848.432-.408 1.146-.624 1.857-.63"/></svg> CSS</span><span class="chip"><svg aria-hidden="true" fill="#F7DF1E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg> JavaScript</span><span class="chip"><svg aria-hidden="true" fill="#FFD43B" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg> Python</span><span class="chip"><svg aria-hidden="true" fill="#4E9CD6" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zm7.11-6.715h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79zm2.962 0h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79z"/></svg> C++</span><span class="chip"><svg aria-hidden="true" fill="#F05032" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z"/></svg> Git</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Data Structures & Algorithms</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path></svg> Object Oriented Programming</span></div><div class="mq-group"><span class="chip"><svg aria-hidden="true" fill="#E34F26" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/></svg> HTML5</span><span class="chip"><svg aria-hidden="true" fill="#2965F1" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0v20.16A3.84 3.84 0 0 0 3.84 24h16.32A3.84 3.84 0 0 0 24 20.16V3.84A3.84 3.84 0 0 0 20.16 0Zm14.256 13.08c1.56 0 2.28 1.08 2.304 2.64h-1.608c.024-.288-.048-.6-.144-.84-.096-.192-.288-.264-.552-.264-.456 0-.696.264-.696.84-.024.576.288.888.768 1.08.72.288 1.608.744 1.92 1.296q.432.648.432 1.656c0 1.608-.912 2.592-2.496 2.592-1.656 0-2.4-1.032-2.424-2.688h1.68c0 .792.264 1.176.792 1.176.264 0 .456-.072.552-.24.192-.312.24-1.176-.048-1.512-.312-.408-.912-.6-1.32-.816q-.828-.396-1.224-.936c-.24-.36-.36-.888-.36-1.536 0-1.44.936-2.472 2.424-2.448m5.4 0c1.584 0 2.304 1.08 2.328 2.64h-1.608c0-.288-.048-.6-.168-.84-.096-.192-.264-.264-.528-.264-.48 0-.72.264-.72.84s.288.888.792 1.08c.696.288 1.608.744 1.92 1.296.264.432.408.984.408 1.656.024 1.608-.888 2.592-2.472 2.592-1.68 0-2.424-1.056-2.448-2.688h1.68c0 .744.264 1.176.792 1.176.264 0 .456-.072.552-.24.216-.312.264-1.176-.048-1.512-.288-.408-.888-.6-1.32-.816-.552-.264-.96-.576-1.2-.936s-.36-.888-.36-1.536c-.024-1.44.912-2.472 2.4-2.448m-11.031.018c.711-.006 1.419.198 1.839.63.432.432.672 1.128.648 1.992H9.336c.024-.456-.096-.792-.432-.96-.312-.144-.768-.048-.888.24-.12.264-.192.576-.168.864v3.504c0 .744.264 1.128.768 1.128a.65.65 0 0 0 .552-.264c.168-.24.192-.552.168-.84h1.776c.096 1.632-.984 2.712-2.568 2.688-1.536 0-2.496-.864-2.472-2.472v-4.032c0-.816.24-1.44.696-1.848.432-.408 1.146-.624 1.857-.63"/></svg> CSS</span><span class="chip"><svg aria-hidden="true" fill="#F7DF1E" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0V0zm22.034 18.276c-.175-1.095-.888-2.015-3.003-2.873-.736-.345-1.554-.585-1.797-1.14-.091-.33-.105-.51-.046-.705.15-.646.915-.84 1.515-.66.39.12.75.42.976.9 1.034-.676 1.034-.676 1.755-1.125-.27-.42-.404-.601-.586-.78-.63-.705-1.469-1.065-2.834-1.034l-.705.089c-.676.165-1.32.525-1.71 1.005-1.14 1.291-.811 3.541.569 4.471 1.365 1.02 3.361 1.244 3.616 2.205.24 1.17-.87 1.545-1.966 1.41-.811-.18-1.26-.586-1.755-1.336l-1.83 1.051c.21.48.45.689.81 1.109 1.74 1.756 6.09 1.666 6.871-1.004.029-.09.24-.705.074-1.65l.046.067zm-8.983-7.245h-2.248c0 1.938-.009 3.864-.009 5.805 0 1.232.063 2.363-.138 2.711-.33.689-1.18.601-1.566.48-.396-.196-.597-.466-.83-.855-.063-.105-.11-.196-.127-.196l-1.825 1.125c.305.63.75 1.172 1.324 1.517.855.51 2.004.675 3.207.405.783-.226 1.458-.691 1.811-1.411.51-.93.402-2.07.397-3.346.012-2.054 0-4.109 0-6.179l.004-.056z"/></svg> JavaScript</span><span class="chip"><svg aria-hidden="true" fill="#FFD43B" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M14.25.18l.9.2.73.26.59.3.45.32.34.34.25.34.16.33.1.3.04.26.02.2-.01.13V8.5l-.05.63-.13.55-.21.46-.26.38-.3.31-.33.25-.35.19-.35.14-.33.1-.3.07-.26.04-.21.02H8.77l-.69.05-.59.14-.5.22-.41.27-.33.32-.27.35-.2.36-.15.37-.1.35-.07.32-.04.27-.02.21v3.06H3.17l-.21-.03-.28-.07-.32-.12-.35-.18-.36-.26-.36-.36-.35-.46-.32-.59-.28-.73-.21-.88-.14-1.05-.05-1.23.06-1.22.16-1.04.24-.87.32-.71.36-.57.4-.44.42-.33.42-.24.4-.16.36-.1.32-.05.24-.01h.16l.06.01h8.16v-.83H6.18l-.01-2.75-.02-.37.05-.34.11-.31.17-.28.25-.26.31-.23.38-.2.44-.18.51-.15.58-.12.64-.1.71-.06.77-.04.84-.02 1.27.05zm-6.3 1.98l-.23.33-.08.41.08.41.23.34.33.22.41.09.41-.09.33-.22.23-.34.08-.41-.08-.41-.23-.33-.33-.22-.41-.09-.41.09zm13.09 3.95l.28.06.32.12.35.18.36.27.36.35.35.47.32.59.28.73.21.88.14 1.04.05 1.23-.06 1.23-.16 1.04-.24.86-.32.71-.36.57-.4.45-.42.33-.42.24-.4.16-.36.09-.32.05-.24.02-.16-.01h-8.22v.82h5.84l.01 2.76.02.36-.05.34-.11.31-.17.29-.25.25-.31.24-.38.2-.44.17-.51.15-.58.13-.64.09-.71.07-.77.04-.84.01-1.27-.04-1.07-.14-.9-.2-.73-.25-.59-.3-.45-.33-.34-.34-.25-.34-.16-.33-.1-.3-.04-.25-.02-.2.01-.13v-5.34l.05-.64.13-.54.21-.46.26-.38.3-.32.33-.24.35-.2.35-.14.33-.1.3-.06.26-.04.21-.02.13-.01h5.84l.69-.05.59-.14.5-.21.41-.28.33-.32.27-.35.2-.36.15-.36.1-.35.07-.32.04-.28.02-.21V6.07h2.09l.14.01zm-6.47 14.25l-.23.33-.08.41.08.41.23.33.33.23.41.08.41-.08.33-.23.23-.33.08-.41-.08-.41-.23-.33-.33-.23-.41-.08-.41.08z"/></svg> Python</span><span class="chip"><svg aria-hidden="true" fill="#4E9CD6" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M22.394 6c-.167-.29-.398-.543-.652-.69L12.926.22c-.509-.294-1.34-.294-1.848 0L2.26 5.31c-.508.293-.923 1.013-.923 1.6v10.18c0 .294.104.62.271.91.167.29.398.543.652.69l8.816 5.09c.508.293 1.34.293 1.848 0l8.816-5.09c.254-.147.485-.4.652-.69.167-.29.27-.616.27-.91V6.91c.003-.294-.1-.62-.268-.91zM12 19.11c-3.92 0-7.109-3.19-7.109-7.11 0-3.92 3.19-7.11 7.11-7.11a7.133 7.133 0 016.156 3.553l-3.076 1.78a3.567 3.567 0 00-3.08-1.78A3.56 3.56 0 008.444 12 3.56 3.56 0 0012 15.555a3.57 3.57 0 003.08-1.778l3.078 1.78A7.135 7.135 0 0112 19.11zm7.11-6.715h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79zm2.962 0h-.79v.79h-.79v-.79h-.79v-.79h.79v-.79h.79v.79h.79z"/></svg> C++</span><span class="chip"><svg aria-hidden="true" fill="#F05032" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.09 23.549a1.54 1.54 0 0 1-2.18 0L.451 13.089a1.54 1.54 0 0 1 0-2.179l7.191-7.19 2.733 2.733a1.85 1.85 0 0 0 .964 2.326v6.66a1.849 1.849 0 1 0 1.54 0V8.957l2.508 2.508a1.85 1.85 0 1 0 1.09-1.09l-2.634-2.634a1.85 1.85 0 0 0-2.378-2.377L8.73 2.63 10.91.451a1.54 1.54 0 0 1 2.179 0l10.459 10.46a1.54 1.54 0 0 1 0 2.179z"/></svg> Git</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"></path></svg> Data Structures & Algorithms</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m18 16 4-4-4-4"></path><path d="m6 8-4 4 4 4"></path></svg> Object Oriented Programming</span></div></div>
+      </div>
+      <div class="skills-row">
+        <div class="skills-track rev" data-marquee><div class="mq-group"><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg> Problem Solving</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 6-6 6 6 6"></path><path d="m16 6 6 6-6 6"></path></svg> Debugging</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v4"></path><path d="m6.34 7.34-2.83-2.83"></path><path d="M2 12h4"></path><path d="m7.34 17.66-2.83 2.83"></path><path d="M12 18v4"></path><path d="m17.66 16.66 2.83 2.83"></path><path d="M18 12h4"></path><path d="m16.66 7.34 2.83-2.83"></path></svg> Agile Methodologies</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14a9 3 0 0 0 18 0V5"></path><path d="M3 12a9 3 0 0 0 18 0"></path></svg> Database Fundamentals</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M9 3v18"></path><path d="m14 9 3 3-3 3"></path></svg> Digital Logic Design</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 17l6-6-6-6"></path><path d="M12 19h8"></path></svg> Web Development</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h.01"></path><path d="M2 8.82a15 15 0 0 1 20 0"></path><path d="M5 12.86a10 10 0 0 1 14 0"></path><path d="M8.5 16.43a5 5 0 0 1 7 0"></path></svg> Networking</span></div><div class="mq-group"><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg> Problem Solving</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m8 6-6 6 6 6"></path><path d="m16 6 6 6-6 6"></path></svg> Debugging</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2v4"></path><path d="m6.34 7.34-2.83-2.83"></path><path d="M2 12h4"></path><path d="m7.34 17.66-2.83 2.83"></path><path d="M12 18v4"></path><path d="m17.66 16.66 2.83 2.83"></path><path d="M18 12h4"></path><path d="m16.66 7.34 2.83-2.83"></path></svg> Agile Methodologies</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M3 5v14a9 3 0 0 0 18 0V5"></path><path d="M3 12a9 3 0 0 0 18 0"></path></svg> Database Fundamentals</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="18" height="18" x="3" y="3" rx="2"></rect><path d="M9 3v18"></path><path d="m14 9 3 3-3 3"></path></svg> Digital Logic Design</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 17l6-6-6-6"></path><path d="M12 19h8"></path></svg> Web Development</span><span class="chip"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 20h.01"></path><path d="M2 8.82a15 15 0 0 1 20 0"></path><path d="M5 12.86a10 10 0 0 1 14 0"></path><path d="M8.5 16.43a5 5 0 0 1 7 0"></path></svg> Networking</span></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="max-screen block">
+    <div class="label" data-aos data-aos-delay="0">
+      <svg class="spark" viewBox="0 0 24 24" aria-hidden="true"><use href="#spk"></use></svg>
+      <p class="shimmer">Testimonials</p>
+    </div>
+    <div class="testi-wrap">
+      <div class="testi-left">
+        <div data-aos data-aos-delay="200"><h2 class="reveal-h2">What others say</h2></div>
+        <div data-aos data-aos-delay="400"><p>Recommendations will be added here as I gain hands-on experience through internships, collaborations, and client work.</p></div>
+      </div>
+      <div class="testi-right" data-aos data-aos-delay="600">
+        <div class="carousel" id="car">
+          <div class="car-track" id="carTrack">
+            <div class="slide">
+              <div class="testi-card">
+                <div class="testi-head">
+                  <div class="avatar-wrap">
+                    <div class="avatar-i">?</div>
+                    <svg class="ring" width="76" height="76" viewBox="0 0 150 150" aria-hidden="true">
+                      <circle cx="75" cy="75" r="70" class="ring-track"></circle>
+                      <circle cx="75" cy="75" r="70" class="ring-arc" transform="rotate(-90 75 75)"></circle>
+                    </svg>
+                  </div>
+                  <div class="testi-id">
+                    <h5>[Testimonial Name]</h5>
+                    <p>[Title @ Organization]</p>
+                  </div>
+                </div>
+                <p class="testi-body">This testimonial slot is reserved. Replace it with a real recommendation from a professor, teammate, or client once available.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="testi-card">
+                <div class="testi-head">
+                  <div class="avatar-wrap">
+                    <div class="avatar-i">?</div>
+                    <svg class="ring" width="76" height="76" viewBox="0 0 150 150" aria-hidden="true">
+                      <circle cx="75" cy="75" r="70" class="ring-track"></circle>
+                      <circle cx="75" cy="75" r="70" class="ring-arc" transform="rotate(-90 75 75)"></circle>
+                    </svg>
+                  </div>
+                  <div class="testi-id">
+                    <h5>[Testimonial Name]</h5>
+                    <p>[Title @ Organization]</p>
+                  </div>
+                </div>
+                <p class="testi-body">This testimonial slot is reserved. Replace it with a real recommendation from a professor, teammate, or client once available.</p>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="testi-card">
+                <div class="testi-head">
+                  <div class="avatar-wrap">
+                    <div class="avatar-i">?</div>
+                    <svg class="ring" width="76" height="76" viewBox="0 0 150 150" aria-hidden="true">
+                      <circle cx="75" cy="75" r="70" class="ring-track"></circle>
+                      <circle cx="75" cy="75" r="70" class="ring-arc" transform="rotate(-90 75 75)"></circle>
+                    </svg>
+                  </div>
+                  <div class="testi-id">
+                    <h5>[Testimonial Name]</h5>
+                    <p>[Title @ Organization]</p>
+                  </div>
+                </div>
+                <p class="testi-body">This testimonial slot is reserved. Replace it with a real recommendation from a professor, teammate, or client once available.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="controls">
+          <a class="li-link" href="#" target="_blank" rel="noopener noreferrer">Check it out on Linkedin
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 7h10v10"></path><path d="M7 17 17 7"></path></svg>
+          </a>
+          <button class="car-btn" id="carPrev" type="button" aria-label="Previous testimonial">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m12 19-7-7 7-7"></path><path d="M19 12H5"></path></svg>
+          </button>
+          <button class="car-btn" id="carNext" type="button" aria-label="Next testimonial">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14"></path><path d="m12 5 7 7-7 7"></path></svg>
+          </button>
+          <span class="car-count" id="carCount">1 / 3</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- FOOTER CTA -->
+<footer class="site" id="contact">
+  <div class="max-screen">
+    <div class="cta">
+      <div data-aos data-aos-delay="0" data-aos-once="false">
+        <div class="pill-live">
+          <span class="dot"><span></span><span class="ping"></span></span>
+          <p>Available for internships</p>
+        </div>
+      </div>
+      <div data-aos data-aos-delay="200" data-aos-once="false">
+        <h2 class="reveal-h2">Let's create your next big idea.</h2>
+      </div>
+      <div data-aos data-aos-delay="400" data-aos-once="false">
+        <a href="mailto:muhammadzub318@gmail.com">
+          <button class="btn" type="button">
+            <span class="btn__ripple"></span>
+            <span style="display:block;overflow:hidden">
+              <span class="btn__text" data-attr="muhammadzub318@gmail.com">Contact Me</span>
+            </span>
+          </button>
+        </a>
+      </div>
+      <div data-aos data-aos-delay="600" data-aos-once="false">
+      <div class="socials-m">
+        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg></a>
+        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg></a>
+        <a href="mailto:muhammadzub318@gmail.com" aria-label="Gmail"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></a>
+        <a href="https://x.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg></a>
+      </div>
+      </div>
+    </div>
+    <div class="footer__base">
+      <span>Muhammad Taha Zubair &#183; Islamabad, Pakistan</span>
+      <span>&copy; 2026 All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+
+
+<script>
+(function(){
+  "use strict";
+  var reduce = false;
+
+  /* header */
+  var pill = document.querySelector(".pill");
+  var header = document.querySelector("header.site");
+  if (pill) requestAnimationFrame(function(){ requestAnimationFrame(function(){ pill.classList.add("in"); }); });
+  window.addEventListener("scroll", function(){
+    if (!header) return;
+    header.classList.toggle("scrolled", window.scrollY > 24);
+  }, {passive:true});
+
+  /* hero revealFx: flip after first paint -> 1.5s mask wipe + blur */
+  var fx = document.querySelector(".revealFx");
+  if (fx) requestAnimationFrame(function(){ requestAnimationFrame(function(){
+    fx.classList.remove("hideRevealFx");
+    fx.classList.add("revealedFx");
+  }); });
+
+  /* marquee: widen each group to >= viewport, clone 2 -> 4 groups, rAF translate (75s/cycle, hover 150s) */
+  var marquees = [];
+  document.querySelectorAll("[data-marquee]").forEach(function(track){
+    var base = Array.prototype.slice.call(track.children);
+    if (base.length !== 2) return;
+    var html = base.map(function(g){ return g.innerHTML; });
+    function build(){
+      while (track.lastChild && track.children.length > base.length) track.removeChild(track.lastChild);
+      base.forEach(function(g, i){
+        g.innerHTML = html[i];
+        var w = g.getBoundingClientRect().width;
+        if (w > 0){
+          var copies = Math.ceil(window.innerWidth / w);
+          for (var k = 1; k < copies; k++) g.innerHTML += html[i];
+        }
+        track.appendChild(g.cloneNode(true));
+      });
+    }
+    build();
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function(){ build(); measureMarquees(); });
+    var m = {
+      track: track,
+      rev: track.classList.contains("rev"),
+      hover: false, speed: 1, x: 0, w: 0,
+      build: build
+    };
+    marquees.push(m);
+    var row = track.closest(".skills-row");
+    if (!reduce && row){
+      row.addEventListener("mouseenter", function(){ m.hover = true; });
+      row.addEventListener("mouseleave", function(){ m.hover = false; });
+    }
+  });
+  function measureMarquees(){
+    marquees.forEach(function(m){
+      var g = m.track.children[0];
+      if (!g) return;
+      m.w = g.getBoundingClientRect().width;
+      if (m.w > 0 && (m.x <= -m.w || m.x > 0)) m.x = m.x - Math.ceil(m.x / m.w) * m.w;
+    });
+  }
+  measureMarquees();
+  var mqLast = 0;
+  function mqTick(now){
+    if (!mqLast) mqLast = performance.now();
+    var t = performance.now();
+    var dt = Math.min((t - mqLast) / 1000, .1);
+    mqLast = t;
+    marquees.forEach(function(m){
+      if (!m.w) return;
+      m.speed += ((m.hover ? .5 : 1) - m.speed) * Math.min(1, dt * 4);
+      var v = (m.w / 75) * m.speed * dt;
+      if (m.rev){ m.x += v; if (m.x >= 0) m.x -= m.w; }
+      else { m.x -= v; if (m.x <= -m.w) m.x += m.w; }
+      m.track.style.transform = "translate3d(" + m.x + "px,0,0)";
+    });
+    requestAnimationFrame(mqTick);
+  }
+  if (!reduce && marquees.length){ requestAnimationFrame(mqTick); }
+  window.addEventListener("resize", function(){
+    marquees.forEach(function(m){ m.build(); });
+    measureMarquees();
+  });
+
+  /* split heading text into word/letter spans (keeps inner elements like .hl intact) */
+  function splitHeading(h){
+    if (h.dataset.split) return;
+    h.dataset.split = "1";
+    var nodes = Array.prototype.slice.call(h.childNodes);
+    nodes.forEach(function(node){
+      if (node.nodeType === 3){
+        var frag = document.createDocumentFragment();
+        node.textContent.split(/(\s+)/).forEach(function(word){
+          if (!word) return;
+          if (/^\s+$/.test(word)) { frag.appendChild(document.createTextNode(" ")); return; }
+          var w = document.createElement("span"); w.className = "w";
+          Array.from(word).forEach(function(ch, i){
+            var s = document.createElement("span"); s.className = "ltr"; s.textContent = ch;
+            s.style.transitionDelay = (i*50)+"ms";
+            w.appendChild(s);
+          });
+          frag.appendChild(w);
+        });
+        h.replaceChild(frag, node);
+      } else if (node.nodeType === 1){
+        Array.from(node.childNodes).filter(function(n){return n.nodeType===3;}).forEach(function(tn){
+          var wrap = document.createElement("span");
+          wrap.className = "w";
+          Array.from(tn.textContent).forEach(function(ch,i){
+            var s=document.createElement("span"); s.className="ltr"; s.textContent=ch;
+            s.style.transitionDelay=(i*50)+"ms"; wrap.appendChild(s);
+          });
+          node.replaceChild(wrap, tn);
+        });
+      }
+    });
+    h.querySelectorAll(".ltr").forEach(function(el, i){ el.style.transitionDelay = (i*50)+"ms"; });
+  }
+  document.querySelectorAll(".reveal-h2").forEach(splitHeading);
+
+  /* ghost paragraph: real letter + ghost overlay letter per position */
+  function buildGhost(p){
+    if (p.dataset.built) return;
+    p.dataset.built = "1";
+    var text = p.textContent.trim();
+    p.textContent = "";
+    text.split(/(\s+)/).forEach(function(word){
+      if (!word) return;
+      if (/^\s+$/.test(word)) { p.appendChild(document.createTextNode(" ")); return; }
+      var w = document.createElement("span"); w.className = "w";
+      Array.from(word).forEach(function(ch, i){
+        var l = document.createElement("span"); l.className = "l";
+        var g = document.createElement("span"); g.className = "g"; g.textContent = ch;
+        var r = document.createElement("span"); r.className = "r"; r.textContent = ch;
+        l.appendChild(g); l.appendChild(r); w.appendChild(l);
+      });
+      p.appendChild(w);
+    });
+  }
+  var ghost = document.getElementById("ghostAbout");
+  if (ghost) buildGhost(ghost);
+
+  /* AOS semantics: reveal when element top < viewport bottom; sticky unless data-aos-once="false" */
+  var vh = window.innerHeight;
+  var aosEls = Array.prototype.slice.call(document.querySelectorAll("[data-aos]"));
+  var h2Els = Array.prototype.slice.call(document.querySelectorAll(".reveal-h2"));
+
+  /* ghost scroll-scrub: p = (0.9vh - top) / (0.65vh); each letter gets a linear sub-range */
+  var ghostLetters = [];
+  if (ghost){
+    var ghostWords = ghost.querySelectorAll(".w");
+    Array.prototype.forEach.call(ghostWords, function(wEl, wi){
+      var ws = wi / ghostWords.length, we = (wi + 1) / ghostWords.length;
+      var ls = wEl.querySelectorAll(".r");
+      Array.prototype.forEach.call(ls, function(el, li){
+        ghostLetters.push({ el: el, s: ws + (we - ws) * (li / ls.length), e: ws + (we - ws) * ((li + 1) / ls.length) });
+      });
+    });
+  }
+  function scrubGhost(){
+    if (reduce || !ghostLetters.length) return;
+    var r = ghost.getBoundingClientRect();
+    var p = (vh * .9 - r.top) / (vh * .9 - vh * .25);
+    p = p < 0 ? 0 : p > 1 ? 1 : p;
+    for (var i = 0; i < ghostLetters.length; i++){
+      var g = ghostLetters[i];
+      var o = (p - g.s) / (g.e - g.s);
+      g.el.style.opacity = o < 0 ? 0 : o > 1 ? 1 : o;
+    }
+  }
+  function sweep(){
+    for (var i = 0; i < aosEls.length; i++){
+      var el = aosEls[i], r = el.getBoundingClientRect();
+      if (r.top < vh) el.classList.add("aos-in");
+      else if (el.getAttribute("data-aos-once") === "false") el.classList.remove("aos-in");
+    }
+    for (var j = 0; j < h2Els.length; j++){
+      var hr = h2Els[j].getBoundingClientRect();
+      var vis = Math.min(hr.bottom, vh) - Math.max(hr.top, 0);
+      if (hr.height > 0 && (vis >= hr.height * .5 || hr.bottom < 0)) h2Els[j].classList.add("in");
+    }
+    scrubGhost();
+  }
+  var sweeping = false;
+  function onScroll(){
+    if (sweeping) return;
+    sweeping = true;
+    requestAnimationFrame(function(){ sweeping = false; sweep(); });
+  }
+  window.addEventListener("scroll", onScroll, {passive:true});
+  window.addEventListener("resize", function(){ vh = window.innerHeight; sweep(); });
+  sweep();
+
+  /* accordion + cross-fade panel */
+  var shots = document.querySelectorAll(".exp-shot");
+  document.querySelectorAll(".acc-btn").forEach(function(btn){
+    btn.addEventListener("click", function(){
+      var item = btn.closest(".acc-item");
+      var open = item.classList.contains("open");
+      document.querySelectorAll(".acc-item.open").forEach(function(o){
+        o.classList.remove("open");
+        o.querySelector(".acc-btn").setAttribute("aria-expanded","false");
+      });
+      if (!open){
+        item.classList.add("open");
+        btn.setAttribute("aria-expanded","true");
+        var idx = Array.prototype.indexOf.call(document.querySelectorAll(".acc-item"), item);
+        shots.forEach(function(s){ s.classList.toggle("active", +s.dataset.shot === idx); });
+      }
+    });
+  });
+
+  /* carousel: seamless loop via edge clones, 12s autoplay reset on every change, active card + ring */
+  var track = document.getElementById("carTrack");
+  if (track){
+    var realSlides = Array.prototype.slice.call(track.children);
+    var N = realSlides.length;
+    function makeClone(el){
+      var c = el.cloneNode(true);
+      c.setAttribute("aria-hidden", "true");
+      c.removeAttribute("id");
+      if (c.querySelectorAll) c.querySelectorAll("[id]").forEach(function(n){ n.removeAttribute("id"); });
+      return c;
+    }
+    track.insertBefore(makeClone(realSlides[N-1]), realSlides[0]);
+    track.appendChild(makeClone(realSlides[0]));
+    var allSlides = Array.prototype.slice.call(track.children); /* [cloneLast, s0..sN-1, cloneFirst] */
+    var pos = 1, timer = null;
+    var prev = document.getElementById("carPrev");
+    var next = document.getElementById("carNext");
+    var count = document.getElementById("carCount");
+
+    function inClone(){ return pos === 0 || pos === N + 1; }
+    function realIdx(){ return pos === 0 ? N - 1 : pos === N + 1 ? 0 : pos - 1; }
+    function paint(){ track.style.transform = "translateX(" + (-pos * 100) + "%)"; }
+    function setActive(){
+      var ri = realIdx();
+      allSlides.forEach(function(s){ s.classList.remove("active"); });
+      allSlides[ri + 1].classList.add("active");
+      if (pos === 0) allSlides[0].classList.add("active");
+      if (pos === N + 1) allSlides[N + 1].classList.add("active");
+      count.textContent = (ri + 1) + " / " + N;
+    }
+    function schedule(){
+      clearTimeout(timer);
+      if (reduce) return;
+      timer = setTimeout(function(){ go(1); }, 12000);
+    }
+    function go(d){
+      if (inClone()) return;
+      pos += d;
+      paint();
+      setActive();
+      schedule();
+    }
+    track.addEventListener("transitionend", function(e){
+      if (e.target !== track || e.propertyName !== "transform") return;
+      if (!inClone()) return;
+      track.style.transition = "none";
+      pos = pos === 0 ? N : 1;
+      paint();
+      void track.offsetWidth;
+      track.style.transition = "";
+      setActive();
+      schedule();
+    });
+
+    /* drag / swipe */
+    var startX = 0, dx = 0, dragging = false;
+    track.addEventListener("pointerdown", function(e){
+      if (inClone()) return;
+      dragging = true; startX = e.clientX; dx = 0;
+      clearTimeout(timer);
+      track.classList.add("dragging");
+      track.setPointerCapture(e.pointerId);
+    });
+    track.addEventListener("pointermove", function(e){
+      if (!dragging) return;
+      dx = e.clientX - startX;
+      track.style.transform = "translateX(calc(" + (-pos * 100) + "% + " + dx + "px))";
+    });
+    function endDrag(){
+      if (!dragging) return;
+      dragging = false;
+      track.classList.remove("dragging");
+      if (Math.abs(dx) > 60) pos += (dx < 0 ? 1 : -1);
+      paint();
+      setActive();
+      schedule();
+    }
+    track.addEventListener("pointerup", endDrag);
+    track.addEventListener("pointercancel", endDrag);
+
+    prev.addEventListener("click", function(){ go(-1); });
+    next.addEventListener("click", function(){ go(1); });
+
+    track.style.transition = "none";
+    paint();
+    void track.offsetWidth;
+    track.style.transition = "";
+    setActive();
+    schedule();
+  }
+
+  window.__revealsReady = true;
+})();
+</script>
+
+</body>
+</html>
